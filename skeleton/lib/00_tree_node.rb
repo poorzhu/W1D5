@@ -51,15 +51,15 @@ class PolyTreeNode
   end
 end
 
-n5 = PolyTreeNode.new(5)
-n4 = PolyTreeNode.new(4)
-n3 = PolyTreeNode.new(3)
-n2 = PolyTreeNode.new(2)
-n1 = PolyTreeNode.new(1)
+# n5 = PolyTreeNode.new(5)
+# n4 = PolyTreeNode.new(4)
+# n3 = PolyTreeNode.new(3)
+# n2 = PolyTreeNode.new(2)
+# n1 = PolyTreeNode.new(1)
 
-n4.parent = n3
-n5.parent = n3
-n3.parent = n2
-n2.parent = n1
+# n4.parent = n3
+# n5.parent = n3
+# n3.parent = n2
+# n2.parent = n1
 
-p n1.bfs(5)
+# p n1.bfs(5)
